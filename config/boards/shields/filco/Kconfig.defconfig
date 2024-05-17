@@ -1,0 +1,6 @@
+if SHIELD_FILCO
+
+config ZMK_KEYBOARD_NAME
+    default "filco"
+
+endif
