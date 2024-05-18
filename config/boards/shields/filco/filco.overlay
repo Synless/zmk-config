@@ -25,7 +25,7 @@
             ;
 
 
-            diode-direction = "col2row";
+            diode-direction = "row2col";
         col-gpios
             = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
