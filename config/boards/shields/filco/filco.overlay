@@ -17,12 +17,12 @@
         label = "KSCAN";
 
         diode-direction = "row2col";
-            ;
         col-gpios
             = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
         row-gpios
             = <&gpio0 2 GPIO_ACTIVE_HIGH>
+            ;
     };
 
     default_transform: keymap_transform_0 {
