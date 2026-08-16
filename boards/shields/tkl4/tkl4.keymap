@@ -7,7 +7,7 @@
 
         default_layer {
             bindings = <
-                &kp ESC       &kp F2        &kp F4        &kp F6        &kp F8        &kp F10       &kp F12       &kp SCROLL_LOCK   &kp LEFT
+                &kp ESC       &kp F2        &kp F4        &kp F6        &kp F8        &kp F10       &kp F12       &kp SCROLLLOCK   &kp LEFT
                 &kp F1        &kp F3        &kp F5        &kp F7        &kp F9        &kp F11       &kp PRINTSCREEN &kp PAUSE_BREAK  &kp DOWN
                 &kp GRAVE     &kp N2        &kp N4        &kp N6        &kp N8        &kp N0        &kp EQUAL      &none             &kp RIGHT_CONTROL
                 &kp N1        &kp N3        &kp N5        &kp N7        &kp N9        &kp MINUS     &kp BACKSPACE  &kp HOME          &trans
