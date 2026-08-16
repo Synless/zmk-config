@@ -7,16 +7,16 @@
 
         default_layer {
             bindings = <
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A
+                &kp ESC       &kp F2        &kp F4        &kp F6        &kp F8        &kp F10       &kp F12       &kp SCROLL_LOCK   &kp LEFT
+                &kp F1        &kp F3        &kp F5        &kp F7        &kp F9        &kp F11       &kp PRINTSCREEN &kp PAUSE_BREAK  &kp DOWN
+                &kp GRAVE     &kp N2        &kp N4        &kp N6        &kp N8        &kp N0        &kp EQUAL      &none             &kp RIGHT_CONTROL
+                &kp N1        &kp N3        &kp N5        &kp N7        &kp N9        &kp MINUS     &kp BACKSPACE  &kp HOME          &trans
+                &kp TAB       &kp W         &kp R         &kp Y         &kp I         &kp P         &kp RIGHT_BRACKET &kp END         &kp RIGHT_ALT
+                &kp Q         &kp E         &kp T         &kp U         &kp O         &kp LEFT_BRACKET  &kp DELETE   &kp PAGE_DOWN    &kp RIGHT_GUI
+                &kp A         &kp D         &kp G         &kp J         &kp L         &kp SINGLE_QUOTE  &kp ENTER    &kp RIGHT        &kp SPACE
+                &kp CAPSLOCK  &kp S         &kp F         &kp H         &kp K         &kp SEMICOLON &kp NUBS       &kp PAGE_UP       &kp LEFT_ALT
+                &kp BACKSLASH &kp X         &kp V         &kp N         &kp COMMA     &kp SLASH     &kp UP          &none             &kp LEFT_GUI
+                &kp LEFT_SHIFT &kp Z        &kp C         &kp B         &kp M         &kp DOT       &kp RIGHT_SHIFT &none             &kp LEFT_CONTROL
             >;
         };
     };
